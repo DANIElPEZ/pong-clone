@@ -1,0 +1,35 @@
+body{
+    background-color: #333333;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+canvas{
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+button{
+    cursor: pointer;
+    font: 1.3em sans-serif;
+    position: absolute;
+    background-color: #8b8b8b;
+    padding: 0.3rem 2.9rem;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.15);
+}
+
+.score{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
