@@ -72,7 +72,7 @@ function ballCollition(){
     xBall+=xspeedBall;
     yBall+=yspeedBall;
 
-    scoreui.textContent=`Player: ${playerPoints} | Computer: ${iaPoints}`;
+    scoreui.textContent=`Player: ${playerPoints} | IA: ${iaPoints}`;
 }
 
 function paddleIaCollition(){
